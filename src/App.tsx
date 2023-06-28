@@ -1,10 +1,10 @@
 import React from "react";
 import loadable from "@loadable/component";
 import { Route, Routes } from "react-router-dom";
-const Home = loadable(() => import("./pages/Home/index"));
-const LogIn = loadable(() => import("./pages/LogIn/index"));
-const SignUp = loadable(() => import("./pages/SignUp/index"));
-const Product = loadable(() => import("./pages/Product/index"));
+const Home = loadable(() => import("@pages/Home"));
+const LogIn = loadable(() => import("@pages/LogIn"));
+const SignUp = loadable(() => import("@pages/SignUp"));
+const Product = loadable(() => import("@pages/Product"));
 
 function App() {
   return (

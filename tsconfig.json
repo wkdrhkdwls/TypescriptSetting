@@ -1,4 +1,5 @@
 {
+  "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -15,15 +16,6 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
-    // "baseUrl": "./src",
-    // "paths": {
-    //   "@hooks/*": ["./hooks/*"],
-    //   "@components/*": ["./components/*"],
-    //   "@pages/*": ["./pages/*"],
-    //   "@utils/*": ["./utils/*"],
-    //   "@store/*": ["./store/*"],
-    //   "@reducer/*": ["./reducer/*"]
-    // }
   },
   "include": ["src"]
 }
